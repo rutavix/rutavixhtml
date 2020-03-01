@@ -1,0 +1,14 @@
+#logo {
+    color:white;
+}
+.header {
+    background-color: burlywood;
+    height:200px;
+}
+#logo2 {
+    color: white;
+    text-align: center;
+}
+.header {
+    background-image: url(images/blake.jpg);
+}
