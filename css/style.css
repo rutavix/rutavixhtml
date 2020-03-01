@@ -3,11 +3,11 @@
 }
 #line1 {
     color: white;
-    padding: 10px;
+    margin-top: 10px;
 }
 #line2 {
     color: white;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .header {
     background-color: burlywood;
