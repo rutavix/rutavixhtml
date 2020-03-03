@@ -5,25 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Country Music</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     </head>
 <body>
     <header class="header">
-        <hr id="line1">
-        <h1 id="logo">Blake Shelton</h1>
-        <h1 id="logo2">Country Music</h1>
-        <hr id="line2">
+        <hr id="top-line">
+        <h1 id="first-logo">Blake Shelton</h1>
+        <h1 id="second-logo">Country Music</h1>
+        <hr id="bottom-line">
     </header>
     <main>
-        <section>
-            <h1>NEW ALBUM OUT NOW</h1>
-            <img src="images/blake2.jpg" alt="NEW ALBUM OUT NOW">
-            <input type="button" value="PLAY NOW">
+        <section class="first-section">
+            <div>
+                <h2><img id="album" src="images/blake.jpg" alt="NEW ALBUM OUT NOW">NEW ALBUM OUT NOW</h2>
+                <input type="button" value="PLAY NOW">
+            </div>
         </section>
-        <br>
-        <br>
         <section>
-            <img src="images/landscape.jpg" alt="">
+            <img src="images/landscape.jpg" alt="Landscape">
             <audio controls>
                 <source src="music/godscountry.mp3" type="audio/mpeg">
             </audio>
@@ -52,8 +51,6 @@
                 <source src="music/shesgot.mp3" type="audio/mpeg">
             </audio>
         </section>
-        <br>
-        <br>
         <section>
             <h1>BIO</h1>
             <p>Blake Tollison Shelton (born June 18, 1976) is an American 
@@ -85,7 +82,7 @@
             <button onclick="showText(this)">READ MORE</button>
         </section>
         <section>
-            <h1>Music Videos</h1>
+            <h2>Music Videos</h2>
             <iframe src="https://www.youtube.com/embed/ZEWGyyLiqY4" ></iframe>
             <iframe  src="https://www.youtube.com/embed/i_nLsG_asQg" ></iframe>
             <iframe  src="https://www.youtube.com/embed/KoQrH6EMnas" ></iframe>
@@ -94,9 +91,7 @@
             <iframe  src="https://www.youtube.com/embed/FaWH5TWzDCk" ></iframe>
             <button onclick="showText(this)">MORE VIDEOS</button>
         </section>
-        <br>
-        <br>
-        <h1>Contact us:</h1>
+        <h2>Contact us:</h2>
         <form name="Conntact us" action="https://formspree.io/xpzrjqkj" method="post">
             <label>Your name</label>
             <input type="text" name="name" placeholder="Your name">

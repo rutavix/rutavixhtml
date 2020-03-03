@@ -1,0 +1,42 @@
+body {
+    max-width: auto;
+    margin: auto;
+}
+
+#first-logo {
+    color:white;
+}
+
+#second-logo {
+    color: white;
+    text-align: center;
+}
+
+#top-line {
+    color: white;
+    padding: 10px;
+}
+
+#bottom-line {
+    color: white;
+    padding: 10px;
+}
+
+.header {
+    background-color: burlywood;
+    height:200px;
+}
+
+.first-section {
+    background-image: url(../images/shelton.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+}
+
+#album {
+    width: 300px;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
