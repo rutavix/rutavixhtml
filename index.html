@@ -16,12 +16,13 @@
     </header>
     <main>
         <section class="first-section">
-            <div>
-                <h2><img id="album" src="images/blake.jpg" alt="NEW ALBUM OUT NOW">NEW ALBUM OUT NOW</h2>
-                <input type="button" value="PLAY NOW">
+            <div class="album-title">
+                <h2>NEW ALBUM OUT NOW</h2>
+                <img id="album" src="images/blake.jpg" alt="NEW ALBUM OUT NOW">
+                <a href="#second-section"><input type="button" value="PLAY NOW"></a>
             </div>
         </section>
-        <section>
+        <section id="second-section">
             <img src="images/landscape.jpg" alt="Landscape">
             <audio controls>
                 <source src="music/godscountry.mp3" type="audio/mpeg">
@@ -52,7 +53,7 @@
             </audio>
         </section>
         <section>
-            <h1>BIO</h1>
+            <h2>BIO</h2>
             <p>Blake Tollison Shelton (born June 18, 1976) is an American 
             country music singer and television personality. In 2001, he made 
             his debut with the single "Austin". The lead-off single from his 
@@ -91,19 +92,21 @@
             <iframe  src="https://www.youtube.com/embed/FaWH5TWzDCk" ></iframe>
             <button onclick="showText(this)">MORE VIDEOS</button>
         </section>
+        <section>
         <h2>Contact us:</h2>
-        <form name="Conntact us" action="https://formspree.io/xpzrjqkj" method="post">
-            <label>Your name</label>
-            <input type="text" name="name" placeholder="Your name">
-            <br>
-            <label>Your email</label>
-            <input type="text" name="email" placeholder="Your email">
-            <br>
-            <label>Message</label>
-            <Textarea name="message"></Textarea>
-            <br>
-            <input type="submit" value="Submit">
-        </form>
+            <form name="Conntact us" action="https://formspree.io/xpzrjqkj" method="post">
+                <label>Your name</label>
+                <input type="text" name="name" placeholder="Your name">
+                <br>
+                <label>Your email</label>
+                <input type="text" name="email" placeholder="Your email">
+                <br>
+                <label>Message</label>
+                <Textarea name="message"></Textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
     </main>
 </body>
 </html>

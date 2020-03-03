@@ -34,9 +34,22 @@ body {
     min-height: 700px;
 }
 
+.album-title {
+    box-sizing: border-box;
+    margin-left: 20%;
+    padding-top: 100px;
+    width: 300px;
+    height: 350px;
+}
+
+.album-title h2 {
+    color: rgb(43, 100, 100);
+    text-align: center;
+    margin: 0;
+}
+
 #album {
     width: 300px;
     height: 300px;
-    margin-top: 10%;
-    margin-left: 20%;
+    
 }
