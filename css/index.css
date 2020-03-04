@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel='stylesheet');
 
 body {
-    max-width: auto;
+    max-width: 980px;
     margin: auto;
 }
 
