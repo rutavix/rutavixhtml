@@ -19,11 +19,11 @@
             <div class="album-title">
                 <h2>NEW ALBUM OUT NOW</h2>
                 <img id="album" src="images/blake.jpg" alt="NEW ALBUM OUT NOW">
-                <a class="button" href="#second-section">PLAY NOW</a>
+                <a class="button-first" href="#second-section">PLAY NOW</a>
             </div>
         </section>
         <section class="second-section" id="second-section">
-            <div id="grid">
+            <div id="audio">
                 <div>
                     <audio title="Blake Shelton - God's Country" controls>
                         <source src="music/godscountry.mp3" type="audio/mpeg">
@@ -71,61 +71,78 @@
                 </div>
             </div>
         </section>
-        <section>
-            <h2>BIO</h2>
-            <p>Blake Tollison Shelton (born June 18, 1976) is an American 
-            country music singer and television personality. In 2001, he made 
-            his debut with the single "Austin". The lead-off single from his 
-            self-titled debut album, "Austin" spent five weeks at number one on 
-            the Billboard Hot Country Songs chart. The now Platinum-certified 
-            debut album also produced two more top 20 entries ("All Over Me" 
-            and "Ol' Red").</p>
-            <p>His second and third albums, 2003's The Dreamer and 2004's Blake 
-            Shelton's Barn & Grill, are gold and platinum, respectively.[1] His 
-            fourth album, Pure BS (2007), was re-issued in 2008 with a cover of 
-            Michael Bublé's pop hit "Home" as one of the bonus tracks. His 
-            fifth album, Startin' Fires was released in November 2008. It was 
-            followed by the extended plays Hillbilly Bone and All About Tonight 
-            in 2010, and the albums Red River Blue in 2011, Based on a True 
-            Story... in 2013, Bringing Back the Sunshine in 2014, and If I'm 
-            Honest in 2016.</p>
-            <p>As of November 2019, Shelton has charted 40 singles, including 
-            26 number ones, 17 of which were consecutive. The 11th No. 1 
-            ("Doin' What She Likes") broke "the record for the most consecutive 
-            No. 1 singles in the Country Airplay chart's 24-year history". He 
-            is an eight-time Grammy Award nominee.</p>
-            <p>Shelton is also known for his role as a judge on the televised 
-            singing competitions Nashville Star, Clash of the Choirs, and as 
-            a coach The Voice. He has been on The Voice since its inception, 
-            and in six of eighteen seasons (2–4, 7, 11, 13), a member of his 
-            team has won.</p>
-            <button onclick="showText(this)">READ MORE</button>
+        <section class="third-section">
+            <hr>
+            <div class="bio">
+                <h2>BIO</h2>
+                <p>Blake Tollison Shelton (born June 18, 1976) is an American 
+                country music singer and television personality. In 2001, he made 
+                his debut with the single "Austin". The lead-off single from his 
+                self-titled debut album, "Austin" spent five weeks at number one on 
+                the Billboard Hot Country Songs chart. The now Platinum-certified 
+                debut album also produced two more top 20 entries ("All Over Me" 
+                and "Ol' Red").
+                <br>
+                His second and third albums, 2003's The Dreamer and 2004's Blake 
+                Shelton's Barn & Grill, are gold and platinum, respectively.[1] His 
+                fourth album, Pure BS (2007), was re-issued in 2008 with a cover of 
+                Michael Bublé's pop hit "Home" as one of the bonus tracks. His 
+                fifth album, Startin' Fires was released in November 2008. It was 
+                followed by the extended plays Hillbilly Bone and All About Tonight 
+                in 2010, and the albums Red River Blue in 2011, Based on a True 
+                Story... in 2013, Bringing Back the Sunshine in 2014, and If I'm 
+                Honest in 2016.
+                <br>
+                As of November 2019, Shelton has charted 40 singles, including 
+                26 number ones, 17 of which were consecutive. The 11th No. 1 
+                ("Doin' What She Likes") broke "the record for the most consecutive 
+                No. 1 singles in the Country Airplay chart's 24-year history". He 
+                is an eight-time Grammy Award nominee.
+                <br>
+                Shelton is also known for his role as a judge on the televised 
+                singing competitions Nashville Star, Clash of the Choirs, and as 
+                a coach The Voice. He has been on The Voice since its inception, 
+                and in six of eighteen seasons (2–4, 7, 11, 13), a member of his 
+                team has won.</p>
+                <button class="button" onclick="showText(this)">READ MORE</button>
+            </div>
+            <hr>
         </section>
-        <section>
-            <h2>Music Videos</h2>
-            <iframe src="https://www.youtube.com/embed/ZEWGyyLiqY4" ></iframe>
-            <iframe  src="https://www.youtube.com/embed/i_nLsG_asQg" ></iframe>
-            <iframe  src="https://www.youtube.com/embed/KoQrH6EMnas" ></iframe>
-            <iframe  src="https://www.youtube.com/embed/3pQc25SCaNs" ></iframe>
-            <iframe  src="https://www.youtube.com/embed/iW5Cf64d7KA" ></iframe>
-            <iframe  src="https://www.youtube.com/embed/FaWH5TWzDCk" ></iframe>
-            <button onclick="showText(this)">MORE VIDEOS</button>
+        <section class="fourth-section">
+            <div class="video">
+                <h2>MUSIC VIDEOS</h2>
+                <iframe src="https://www.youtube.com/embed/KoQrH6EMnas"></iframe>
+                <iframe src="https://www.youtube.com/embed/4VqVgRX2rGg"></iframe>
+                <br>
+                <iframe src="https://www.youtube.com/embed/iW5Cf64d7KA"></iframe>
+                <iframe src="https://www.youtube.com/embed/FaWH5TWzDCk"></iframe>
+                <br>
+                <a class="button" href="https://www.youtube.com/user/blakeshelton/videos">MORE VIDEOS</a>
+            </div>
         </section>
-        <section>
-        <h2>Contact us:</h2>
-            <form name="Conntact us" action="https://formspree.io/xpzrjqkj" method="post">
-                <label>Your name</label>
-                <input type="text" name="name" placeholder="Your name">
-                <br>
-                <label>Your email</label>
-                <input type="text" name="email" placeholder="Your email">
-                <br>
-                <label>Message</label>
-                <Textarea name="message"></Textarea>
-                <br>
-                <input type="submit" value="Submit">
-            </form>
+        <section class="fifth-section">
+            <div>
+                <h2 id="contact">CONTACT US:</h2>
+                <form class="form" name="Conntact us" action="https://formspree.io/xpzrjqkj" method="post">
+                    <label>Your name</label>
+                    <input type="text" name="name" placeholder="Your name">
+                    <br>
+                    <label>Your email</label>
+                    <input type="text" name="email" placeholder="Your email">
+                    <br>
+                    <label>Message</label>
+                    <Textarea name="message"></Textarea>
+                    <br>
+                    <input class="button" type="submit" value="Submit">
+                </form>
+            </div>
         </section>
     </main>
+    <footer class="footer">
+    	<div>
+    		<p>© 2020 created by rutavix</p>
+    	</div>
+    </footer>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
