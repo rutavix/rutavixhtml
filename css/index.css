@@ -73,19 +73,6 @@ body {
     position: relative;
     transition: background-color .6s ease;
     overflow: hidden;
-    after {
-        content: "";
-        position: absolute;
-        width: 0;
-        height: 0;
-        top: 50%;
-        left: 50%;
-        transform-style: flat;
-        transform: translate3d(-50%,-50%,0);
-        background: rgba(white,.1);
-        border-radius: 100%;
-        transition: width .3s ease, height .3s ease;
-    }
 }
 
 .button {
@@ -103,19 +90,6 @@ body {
     position: relative;
     transition: background-color .6s ease;
     overflow: hidden;
-    after {
-        content: "";
-        position: absolute;
-        width: 0;
-        height: 0;
-        top: 50%;
-        left: 50%;
-        transform-style: flat;
-        transform: translate3d(-50%,-50%,0);
-        background: rgba(white,.1);
-        border-radius: 100%;
-        transition: width .3s ease, height .3s ease;
-    }
 }
 
 .second-section {
