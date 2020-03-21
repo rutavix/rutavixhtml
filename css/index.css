@@ -32,7 +32,7 @@ body {
     height:200px;
 }
 
-.first-section {
+.main-section {
     background-image: url(../images/shelton.jpg);
     background-position: center;
     background-size: cover;
@@ -75,8 +75,10 @@ body {
     overflow: hidden;
 }
 
-.button-second {
-    left: 35%;
+.button-video {
+    position:relative; left:45%;
+    margin-left:-100px;
+    width:200px;
     transform: translate(-50%, 0);
     padding: 16px 42px;
     box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
@@ -109,7 +111,7 @@ body {
     overflow: hidden;
 }
 
-.second-section {
+.music-section {
     background-image: url(../images/landscape.jpg);
     background-position: left;
     background-size: cover;
@@ -128,14 +130,14 @@ h2 {
 
 
 
-.third-section {
+.bio-section {
     background-color: rgb(245, 235, 225);
     font-size: 24px
 }
 
 .bio p {
     height: 400px;
-    width: 500px;
+    width: 480px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -144,7 +146,7 @@ h2 {
     text-overflow: ellipsis;
 }
 
-.fourth-section {
+.video-section {
     display: flex;
     justify-content: center;
 }
@@ -152,10 +154,9 @@ h2 {
 .video iframe {
     width: 560px;
     height: 315px;
-    
 }
 
-.fifth-section {
+.form-section {
     height: 600px;
 }
 
@@ -163,7 +164,7 @@ h2 {
     padding-top: 30px;
 }
 
-.fifth-section, #contact {
+.form-section, #contact {
     background-color:rgb(43, 100, 100);
     color: rgb(80, 185, 185);
 }

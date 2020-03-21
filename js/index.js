@@ -7,3 +7,5 @@ function showText (el) {
             el.innerHTML = "READ MORE";
 		}
 }
+
+
