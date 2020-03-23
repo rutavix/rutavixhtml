@@ -76,8 +76,7 @@ body {
 }
 
 .button-video {
-    position:relative; 
-    left:40%;
+    left: 5%;
     margin-left:-100px;
     width:200px;
     transform: translate(-50%, 0);
@@ -151,11 +150,16 @@ h2 {
     justify-content: center;
 }
 
+.video {
+    text-align: center;
+}
+
 .video iframe {
     width: 95vw;
     height: 268px;
     max-width: 480px;
     min-width: 320px;
+    
 }
 
 .form-section {
